@@ -1,11 +1,11 @@
 {
-  "version": "1.2.3",
+  "version": "7.1.2",
   "name": "cordova-plugin-mapbox",
   "cordova_name": "Mapbox",
   "description": "Need native maps? Look no further!",
   "license": "MIT",
-  "repo": "https://github.com/Telerik-Verified-Plugins/Mapbox.git",
-  "issue": "https://github.com/Telerik-Verified-Plugins/Mapbox/issues",
+  "repository": "https://github.com/warrenc5/Mapbox.git",
+  "issue": "https://github.com/warrenc5/Mapbox/issues",
   "keywords": [
     "Mapbox",
     "Maps",

@@ -1,4 +1,4 @@
-ext.cdvMinSdkVersion = 15
+ext.cdvMinSdkVersion = 19
 
 repositories {
     mavenCentral()
@@ -8,7 +8,14 @@ repositories {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
-    compile ('com.mapbox.mapboxsdk:mapbox-android-sdk:3.2.0@aar'){
+    compile ('com.mapbox.mapboxsdk:mapbox-android-sdk:7.1.2@aar'){
         transitive=true
+    }
+
+}
+
+android {
+    sourceSets {
+            main.java.srcDirs += 'src/main/java'
     }
 }

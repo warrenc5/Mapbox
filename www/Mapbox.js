@@ -2,7 +2,11 @@ var exec = require("cordova/exec");
 
 module.exports = {
   show: function (options, successCallback, errorCallback) {
+      try {
     cordova.exec(successCallback, errorCallback, "Mapbox", "show", [options]);
+      }catch(e){
+          console.log(e);
+      }
   },
 
   hide: function (options, successCallback, errorCallback) {
